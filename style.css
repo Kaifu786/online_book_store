@@ -1,0 +1,209 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+        background-image: url("body.jpg");
+        background-size: 100%;      
+}
+.nav{
+    margin-top:50px ;
+    display: flex;
+    margin: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    margin-left: 18px;
+    font-size: 25px;
+}
+.nav:hover a {
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+.book-image{
+    height: 400px;
+    width: 40%;
+    background-color: black;
+}
+.book-image img{
+    
+    height: 100%;
+    width: 100%;
+}
+.book-text{
+    height: 400px;
+    width: 60%;
+}
+.book-text p{
+   font-size: 30px;
+   padding: 0px 10px;
+}
+.book-store{
+    margin-top: 10px;
+    display: flex;
+    height: 580px;
+    width: auto;
+}
+.c{
+    height: 580px;
+    width: 20%;
+}
+.c-image{
+    height: 400px;
+    width: auto;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 15px 0px 9px 0px;
+}
+h3{
+    text-align: center;
+    margin: 7px 0px 9px 0px;
+    font-size: 25px;
+}
+.buy-button{
+    margin-top: 5px;
+    font-size: 25px;
+    background-color: #e67e22;
+    color: #090909;
+    border: none;
+    border-radius: 4px;
+
+}
+.buy-button:hover{
+    background: #d35400;
+}
+.java{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+.java-image{
+        height: 400px;
+        width: auto;
+}
+.python{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+.python-image{
+        height: 400px;
+        width: auto;
+}
+.php{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+
+.php-image{
+    height: 400px;
+    width: auto;
+    background-color: #090909;
+}
+.english{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+.english-image{
+    height: 400px;
+    width: auto;
+}
+.book-store2{
+    margin-top: 15px;
+    display: flex;
+    height: 580px;
+    width: auto;
+}
+.urdu{
+    height: 580px;
+    width: 20%;
+}
+.urdu-image{
+    height: 400px;
+    width: auto;
+}
+.hindi{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+.hindi-image{
+    height: 400px;
+    width: auto;
+}
+.math{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+.math-image{
+    height: 400px;
+    width: auto;
+}
+.physics{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+.physics-image{
+    height: 400px;
+    width: auto;
+}
+.chemistry{
+    height: 580px;
+    width: 20%;
+    margin-left: 25px;
+}
+.chemistry-image{
+    height: 400px;
+    width: auto;
+}
+.c:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.java:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.python:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.php:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.english:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.urdu:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.hindi:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.math:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.physics:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
+.chemistry:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(189 , 188 , 188);
+}
